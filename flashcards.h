@@ -2,6 +2,7 @@
 #define FLASHCARDS_H
 
 #include <QMainWindow>
+#include "Flashcard_details.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Flashcards; }
@@ -13,12 +14,13 @@ class Flashcards : public QMainWindow {
 public:
     Flashcards(QWidget *parent = nullptr);
     ~Flashcards();
+    void insertCard(Flashcard_details &card);
 
 private slots:
     void on_save_button_clicked();
 
 private:
-//    QVector<Question> questions;
+    std::vector<Flashcard_details> questions;
     Ui::Flashcards *ui;
 };
 #endif // FLASHCARDS_H

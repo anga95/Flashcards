@@ -7,13 +7,16 @@ Flashcards::Flashcards(QWidget *parent) : QMainWindow(parent) , ui(new Ui::Flash
 
 Flashcards::~Flashcards(){ delete ui; }
 
-
 void Flashcards::on_save_button_clicked() {
-    QString answer = ui->text_answer->text();
-    QString question = ui->text_question->placeholderText();
+    Flashcard_details card = Flashcard_details(ui->text_question->toPlainText(),
+                                             ui->text_answer->text());
+    insertCard(card);
+    ui->textBrowser->clear();
+    ui->textBrowser->append(card.getQuestion());
+}
 
-
-    ui->textBrowser->append(answer);
+void Flashcards::insertCard(Flashcard_details &card) {
+    questions.emplace_back(card);
 }
 
 

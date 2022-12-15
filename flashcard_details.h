@@ -1,16 +1,29 @@
 #ifndef FLASHCARD_DETAILS_H
 #define FLASHCARD_DETAILS_H
 
+#include <QMainWindow>
 #include <QList>
-#include "QtCore/qstring.h"
-class Flashcard_details{
+#include <QObject>
+#include <QString>
+class Flashcard_details : public QMainWindow{
 
-    public:
-    explicit Flashcard_details();
+
 private:
-    QString describing_text;
+    QString question;
     QString correct_answer;
-    QStringList wrong_answers;
+public:
+    Flashcard_details(const Flashcard_details &details);
+    Flashcard_details() = default;
+
+    explicit Flashcard_details(const QString &question,
+                               const QString &correctAnswer);
+
+
+    const QString &getQuestion() const;
+
+    const QString &getCorrectAnswer() const;
+
+
 };
 
 #endif // FLASHCARD_DETAILS_H
