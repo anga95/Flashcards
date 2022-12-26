@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "Flashcards_autogen"
   "CMakeFiles/Flashcards.dir/Flashcards_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/Flashcards.dir/Flashcards_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/Flashcards.dir/file_handling.cpp.o"
+  "CMakeFiles/Flashcards.dir/file_handling.cpp.o.d"
   "CMakeFiles/Flashcards.dir/flashcard_details.cpp.o"
   "CMakeFiles/Flashcards.dir/flashcard_details.cpp.o.d"
   "CMakeFiles/Flashcards.dir/flashcards.cpp.o"

@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = "/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
+RM = "/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -68,7 +68,7 @@ include CMakeFiles/Flashcards_autogen.dir/progress.make
 
 CMakeFiles/Flashcards_autogen:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Flashcards"
-	"/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_autogen /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/cmake-build-debug/CMakeFiles/Flashcards_autogen.dir/AutogenInfo.json Debug
+	"/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_autogen /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/cmake-build-debug/CMakeFiles/Flashcards_autogen.dir/AutogenInfo.json Debug
 
 Flashcards_autogen: CMakeFiles/Flashcards_autogen
 Flashcards_autogen: CMakeFiles/Flashcards_autogen.dir/build.make

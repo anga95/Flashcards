@@ -19,7 +19,7 @@ set(PROJECT_SOURCES
         flashcards.ui
         flashcard_details.h
         flashcard_details.cpp
-)
+        file_handling.cpp file_handling.h)
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Flashcards
