@@ -33,8 +33,16 @@ void parse_file(QVector<Flashcard_details> &questions){
     QFile file(FILE_PATH);
     file.open(QIODevice::WriteOnly | QIODevice::Append);
     QTextStream out(&file);
-    out.setFieldWidth(100);
-    out << card.get_question() << "\n" << card.get_correct_answer() << "\n";
+    QString question = card.get_question();
+     for (auto c:question) {
+         if (c=='\n'){
+             out << '\n';
+         }else{
+             out << c;
+         }
+     }
+
+    out  << "\n" << card.get_correct_answer() << "\n";
     for (int index = 0; index < 3; index++) {
         out << card.get_wrong_answer(index) << "\n";
     }

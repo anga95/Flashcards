@@ -5,14 +5,12 @@
 #include "flashcards.h"
 #include "./ui_flashcards.h"
 #include"file_handling.h"
+#include <iostream>
 
 Flashcards::Flashcards(QWidget *parent) : QMainWindow(parent) , ui(new Ui::Flashcards){
     parse_file(questions);
-    QTabWidget* tabWidget = new QTabWidget;
-    tabWidget->setCurrentIndex(0);
-//    QTextBrowser* tb = new QTextBrowser;
-//    tb->setLineWrapMode(QTextBrowser::NoWrap);
     ui->setupUi(this);
+    ui->tabWidget->setCurrentIndex(0);
     display_new_question();
 }
 
@@ -37,10 +35,10 @@ void Flashcards::on_save_button_clicked() {
     QVector<QString> wrong_answers = { wrong_answer_1, wrong_answer_2, wrong_answer_3 };
 
 
-    Flashcard_details card = Flashcard_details(ui->text_question->toPlainText(),
+    Flashcard_details card = Flashcard_details(ui->text_question->text(),
                                              ui->text_correct_answer->text(),
                                              wrong_answers);
-
+    questions.push_back(card);
     save_to_file(card);
 }
 
@@ -49,15 +47,22 @@ void Flashcards::insertCard(Flashcard_details &card) {
 }
 
 void Flashcards::display_new_question() {
+    if (questions.empty()){
+        QMessageBox::warning(nullptr, "empty!", "The quiz is empty, add some questions! ");
+        return;
+    }
     if (current_index_of_questions < questions.size()){
         int index = getCurrentIndexOfQuestions();
         ui->textBrowser->clear();
-        ui->textBrowser->append(questions[index].get_question());
+
+        ui->textBrowser->setText(questions[index].get_question());
         ui->answer_button_1->setText(questions[index].get_correct_answer());
         ui->answer_button_2->setText(questions[index].get_wrong_answer(0));
         ui->answer_button_3->setText(questions[index].get_wrong_answer(1));
         ui->answer_button_4->setText(questions[index].get_wrong_answer(2));
-    }else{
+    }
+
+    if (current_index_of_questions == questions.size()){
         QMessageBox::warning(nullptr, "Finished!", "The quiz is finished, starting over from beginning ");
         current_index_of_questions = 0;
         display_new_question();

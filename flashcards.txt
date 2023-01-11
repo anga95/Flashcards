@@ -1,4 +1,4 @@
-vad heter love?
+vad heter\nlove?
 love
 kalle
 gurra
@@ -13,3 +13,8 @@ detta är rätt svar
 feöl
 fell
 sistafel
+adsf\n2
+asdf
+asdf
+asdf
+adfg
