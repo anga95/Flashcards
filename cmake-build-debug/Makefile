@@ -211,6 +211,54 @@ Flashcards_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flashcards.dir/build.make CMakeFiles/Flashcards.dir/Flashcards_autogen/mocs_compilation.cpp.s
 .PHONY : Flashcards_autogen/mocs_compilation.cpp.s
 
+Quiz.o: Quiz.cpp.o
+.PHONY : Quiz.o
+
+# target to build an object file
+Quiz.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flashcards.dir/build.make CMakeFiles/Flashcards.dir/Quiz.cpp.o
+.PHONY : Quiz.cpp.o
+
+Quiz.i: Quiz.cpp.i
+.PHONY : Quiz.i
+
+# target to preprocess a source file
+Quiz.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flashcards.dir/build.make CMakeFiles/Flashcards.dir/Quiz.cpp.i
+.PHONY : Quiz.cpp.i
+
+Quiz.s: Quiz.cpp.s
+.PHONY : Quiz.s
+
+# target to generate assembly for a file
+Quiz.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flashcards.dir/build.make CMakeFiles/Flashcards.dir/Quiz.cpp.s
+.PHONY : Quiz.cpp.s
+
+Quiz_details.o: Quiz_details.cpp.o
+.PHONY : Quiz_details.o
+
+# target to build an object file
+Quiz_details.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flashcards.dir/build.make CMakeFiles/Flashcards.dir/Quiz_details.cpp.o
+.PHONY : Quiz_details.cpp.o
+
+Quiz_details.i: Quiz_details.cpp.i
+.PHONY : Quiz_details.i
+
+# target to preprocess a source file
+Quiz_details.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flashcards.dir/build.make CMakeFiles/Flashcards.dir/Quiz_details.cpp.i
+.PHONY : Quiz_details.cpp.i
+
+Quiz_details.s: Quiz_details.cpp.s
+.PHONY : Quiz_details.s
+
+# target to generate assembly for a file
+Quiz_details.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flashcards.dir/build.make CMakeFiles/Flashcards.dir/Quiz_details.cpp.s
+.PHONY : Quiz_details.cpp.s
+
 file_handling.o: file_handling.cpp.o
 .PHONY : file_handling.o
 
@@ -234,30 +282,6 @@ file_handling.s: file_handling.cpp.s
 file_handling.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flashcards.dir/build.make CMakeFiles/Flashcards.dir/file_handling.cpp.s
 .PHONY : file_handling.cpp.s
-
-flashcard_details.o: flashcard_details.cpp.o
-.PHONY : flashcard_details.o
-
-# target to build an object file
-flashcard_details.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flashcards.dir/build.make CMakeFiles/Flashcards.dir/flashcard_details.cpp.o
-.PHONY : flashcard_details.cpp.o
-
-flashcard_details.i: flashcard_details.cpp.i
-.PHONY : flashcard_details.i
-
-# target to preprocess a source file
-flashcard_details.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flashcards.dir/build.make CMakeFiles/Flashcards.dir/flashcard_details.cpp.i
-.PHONY : flashcard_details.cpp.i
-
-flashcard_details.s: flashcard_details.cpp.s
-.PHONY : flashcard_details.s
-
-# target to generate assembly for a file
-flashcard_details.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flashcards.dir/build.make CMakeFiles/Flashcards.dir/flashcard_details.cpp.s
-.PHONY : flashcard_details.cpp.s
 
 flashcards.o: flashcards.cpp.o
 .PHONY : flashcards.o
@@ -307,6 +331,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flashcards.dir/build.make CMakeFiles/Flashcards.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+uiSetup.o: uiSetup.cpp.o
+.PHONY : uiSetup.o
+
+# target to build an object file
+uiSetup.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flashcards.dir/build.make CMakeFiles/Flashcards.dir/uiSetup.cpp.o
+.PHONY : uiSetup.cpp.o
+
+uiSetup.i: uiSetup.cpp.i
+.PHONY : uiSetup.i
+
+# target to preprocess a source file
+uiSetup.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flashcards.dir/build.make CMakeFiles/Flashcards.dir/uiSetup.cpp.i
+.PHONY : uiSetup.cpp.i
+
+uiSetup.s: uiSetup.cpp.s
+.PHONY : uiSetup.s
+
+# target to generate assembly for a file
+uiSetup.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flashcards.dir/build.make CMakeFiles/Flashcards.dir/uiSetup.cpp.s
+.PHONY : uiSetup.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -324,18 +372,24 @@ help:
 	@echo "... Flashcards_autogen/mocs_compilation.o"
 	@echo "... Flashcards_autogen/mocs_compilation.i"
 	@echo "... Flashcards_autogen/mocs_compilation.s"
+	@echo "... Quiz.o"
+	@echo "... Quiz.i"
+	@echo "... Quiz.s"
+	@echo "... Quiz_details.o"
+	@echo "... Quiz_details.i"
+	@echo "... Quiz_details.s"
 	@echo "... file_handling.o"
 	@echo "... file_handling.i"
 	@echo "... file_handling.s"
-	@echo "... flashcard_details.o"
-	@echo "... flashcard_details.i"
-	@echo "... flashcard_details.s"
 	@echo "... flashcards.o"
 	@echo "... flashcards.i"
 	@echo "... flashcards.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... uiSetup.o"
+	@echo "... uiSetup.i"
+	@echo "... uiSetup.s"
 .PHONY : help
 
 

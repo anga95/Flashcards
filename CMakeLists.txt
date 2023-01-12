@@ -17,9 +17,12 @@ set(PROJECT_SOURCES
         flashcards.cpp
         flashcards.h
         flashcards.ui
-        flashcard_details.h
-        flashcard_details.cpp
-        file_handling.cpp file_handling.h)
+        Quiz_details.cpp
+        Quiz_card.h
+        file_handling.cpp
+        file_handling.h
+        Quiz.cpp
+        Quiz.h uiSetup.cpp uiSetup.h)
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Flashcards

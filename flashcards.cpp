@@ -1,108 +1,53 @@
-#include <fstream>
-#include <QFile>
+#include "Quiz_card.h"
 #include <QMessageBox>
 #include <QTimer>
 #include "flashcards.h"
 #include "./ui_flashcards.h"
-#include"file_handling.h"
+#include "file_handling.h"
+#include "uiSetup.h"
 #include <iostream>
 
 Flashcards::Flashcards(QWidget *parent) : QMainWindow(parent) , ui(new Ui::Flashcards){
-    parse_file(questions);
     ui->setupUi(this);
     ui->tabWidget->setCurrentIndex(0);
-    display_new_question();
+    set_progress_bar(ui, quiz);
+    display_new_question(ui,quiz);
+    fill_delete_list(ui, quiz);
 }
-
-Flashcards& Flashcards::operator=( Flashcards &&rhs)  {
-    std::swap(questions, rhs.questions);
-    return *this;
-}
-
 
 Flashcards::~Flashcards(){ delete ui; }
 
 void Flashcards::on_save_button_clicked() {
-    QString correct_answer = ui->text_correct_answer->text();
-    QString wrong_answer_1 = ui->text_wrong_answer_1->text();
-    QString wrong_answer_2 = ui->text_wrong_answer_2->text();
-    QString wrong_answer_3 = ui->text_wrong_answer_3->text();
-    if ( correct_answer.trimmed().isEmpty() || wrong_answer_1.trimmed().isEmpty() || wrong_answer_2.trimmed().isEmpty() || wrong_answer_3.trimmed().isEmpty()){
-        QMessageBox::warning(nullptr, "error", "please fill in all fields!" );
-        return;
-    }
-
-    QVector<QString> wrong_answers = { wrong_answer_1, wrong_answer_2, wrong_answer_3 };
-
-
-    Flashcard_details card = Flashcard_details(ui->text_question->text(),
-                                             ui->text_correct_answer->text(),
-                                             wrong_answers);
-    questions.push_back(card);
-    save_to_file(card);
-}
-
-void Flashcards::insertCard(Flashcard_details &card) {
-    questions.emplace_back(card);
-}
-
-void Flashcards::display_new_question() {
-    if (questions.empty()){
-        QMessageBox::warning(nullptr, "empty!", "The quiz is empty, add some questions! ");
-        return;
-    }
-    if (current_index_of_questions < questions.size()){
-        int index = getCurrentIndexOfQuestions();
-        ui->textBrowser->clear();
-
-        ui->textBrowser->setText(questions[index].get_question());
-        ui->answer_button_1->setText(questions[index].get_correct_answer());
-        ui->answer_button_2->setText(questions[index].get_wrong_answer(0));
-        ui->answer_button_3->setText(questions[index].get_wrong_answer(1));
-        ui->answer_button_4->setText(questions[index].get_wrong_answer(2));
-    }
-
-    if (current_index_of_questions == questions.size()){
-        QMessageBox::warning(nullptr, "Finished!", "The quiz is finished, starting over from beginning ");
-        current_index_of_questions = 0;
-        display_new_question();
-    }
+    save_card_to_quiz(ui, quiz);
 }
 
 void Flashcards::on_answer_button_1_clicked(){
     QPushButton* button = ui->answer_button_1;
-    check_answer(button);
+    check_answer(button, ui, quiz);
 }
 
 void Flashcards::on_answer_button_2_clicked(){
     QPushButton* button = ui->answer_button_2;
-    check_answer(button);
+    check_answer(button, ui, quiz);
 }
 
 void Flashcards::on_answer_button_3_clicked(){
     QPushButton* button = ui->answer_button_3;
-    check_answer(button);
+    check_answer(button, ui, quiz);
 }
 
 void Flashcards::on_answer_button_4_clicked(){
     QPushButton* button = ui->answer_button_4;
-    check_answer(button);
+    check_answer(button, ui, quiz);
 }
 
-int Flashcards::getCurrentIndexOfQuestions() const { return current_index_of_questions; }
-
-void Flashcards::check_answer(QPushButton* &button) {
-    if (button->text() == questions[current_index_of_questions].get_correct_answer()){
-        button->setStyleSheet("QPushButton:pressed { background-color: green;}");
-        current_index_of_questions++;
-        display_new_question();
-    }else{
-        button->setStyleSheet("QPushButton:pressed { background-color: red;}");
-    }
+void Flashcards::on_comboBox_currentIndexChanged(int index){
+    Quiz_card card = quiz.get_specific_card(index);
+    set_delete_page_fields(ui, card);
 }
 
-//
-//        QTimer::singleShot(500, [this] {
-//            ui->answer_button_1->setStyleSheet("QPushButton:pressed { background-color: white;}");
-//            display_new_question(++current_index_of_questions);
-//        });
+void Flashcards::on_delete_button_clicked() {
+    int index = ui->comboBox->currentIndex();
+    delete_card_from_quiz(ui, quiz, index);
+}
+

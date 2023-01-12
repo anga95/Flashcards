@@ -252,21 +252,33 @@
 	"HEADERS" : 
 	[
 		[
+			"/Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/Quiz.h",
+			"MU",
+			"EWIEGA46WW/moc_Quiz.cpp",
+			null
+		],
+		[
+			"/Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/Quiz_card.h",
+			"MU",
+			"EWIEGA46WW/moc_Quiz_card.cpp",
+			null
+		],
+		[
 			"/Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/file_handling.h",
 			"MU",
 			"EWIEGA46WW/moc_file_handling.cpp",
 			null
 		],
 		[
-			"/Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/flashcard_details.h",
-			"MU",
-			"EWIEGA46WW/moc_flashcard_details.cpp",
-			null
-		],
-		[
 			"/Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/flashcards.h",
 			"MU",
 			"EWIEGA46WW/moc_flashcards.cpp",
+			null
+		],
+		[
+			"/Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/uiSetup.h",
+			"MU",
+			"EWIEGA46WW/moc_uiSetup.cpp",
 			null
 		]
 	],
@@ -292,7 +304,7 @@
 		"/Users/andreas/Qt/6.4.1/macos/lib/QtGui.framework/Headers",
 		"/Users/andreas/Qt/6.4.1/macos/lib/QtGui.framework",
 		"/usr/include",
-		"/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include"
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include"
 	],
 	"MOC_MACRO_NAMES" : 
 	[
@@ -306,7 +318,7 @@
 	"MOC_PATH_PREFIX" : false,
 	"MOC_PREDEFS_CMD" : 
 	[
-		"/Library/Developer/CommandLineTools/usr/bin/c++",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
 		"-dM",
 		"-E",
 		"-c",
@@ -326,12 +338,17 @@
 	"SOURCES" : 
 	[
 		[
-			"/Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/file_handling.cpp",
+			"/Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/Quiz.cpp",
 			"MU",
 			null
 		],
 		[
-			"/Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/flashcard_details.cpp",
+			"/Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/Quiz_details.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/file_handling.cpp",
 			"MU",
 			null
 		],
@@ -342,6 +359,11 @@
 		],
 		[
 			"/Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/uiSetup.cpp",
 			"MU",
 			null
 		]

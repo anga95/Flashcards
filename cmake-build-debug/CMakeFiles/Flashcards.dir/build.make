@@ -73,79 +73,109 @@ CMakeFiles/Flashcards.dir/Flashcards_autogen/mocs_compilation.cpp.o: CMakeFiles/
 CMakeFiles/Flashcards.dir/Flashcards_autogen/mocs_compilation.cpp.o: Flashcards_autogen/mocs_compilation.cpp
 CMakeFiles/Flashcards.dir/Flashcards_autogen/mocs_compilation.cpp.o: CMakeFiles/Flashcards.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Flashcards.dir/Flashcards_autogen/mocs_compilation.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Flashcards.dir/Flashcards_autogen/mocs_compilation.cpp.o -MF CMakeFiles/Flashcards.dir/Flashcards_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/Flashcards.dir/Flashcards_autogen/mocs_compilation.cpp.o -c /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/cmake-build-debug/Flashcards_autogen/mocs_compilation.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Flashcards.dir/Flashcards_autogen/mocs_compilation.cpp.o -MF CMakeFiles/Flashcards.dir/Flashcards_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/Flashcards.dir/Flashcards_autogen/mocs_compilation.cpp.o -c /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/cmake-build-debug/Flashcards_autogen/mocs_compilation.cpp
 
 CMakeFiles/Flashcards.dir/Flashcards_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Flashcards.dir/Flashcards_autogen/mocs_compilation.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/cmake-build-debug/Flashcards_autogen/mocs_compilation.cpp > CMakeFiles/Flashcards.dir/Flashcards_autogen/mocs_compilation.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/cmake-build-debug/Flashcards_autogen/mocs_compilation.cpp > CMakeFiles/Flashcards.dir/Flashcards_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/Flashcards.dir/Flashcards_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Flashcards.dir/Flashcards_autogen/mocs_compilation.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/cmake-build-debug/Flashcards_autogen/mocs_compilation.cpp -o CMakeFiles/Flashcards.dir/Flashcards_autogen/mocs_compilation.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/cmake-build-debug/Flashcards_autogen/mocs_compilation.cpp -o CMakeFiles/Flashcards.dir/Flashcards_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/Flashcards.dir/main.cpp.o: CMakeFiles/Flashcards.dir/flags.make
 CMakeFiles/Flashcards.dir/main.cpp.o: /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/main.cpp
 CMakeFiles/Flashcards.dir/main.cpp.o: CMakeFiles/Flashcards.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Flashcards.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Flashcards.dir/main.cpp.o -MF CMakeFiles/Flashcards.dir/main.cpp.o.d -o CMakeFiles/Flashcards.dir/main.cpp.o -c /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/main.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Flashcards.dir/main.cpp.o -MF CMakeFiles/Flashcards.dir/main.cpp.o.d -o CMakeFiles/Flashcards.dir/main.cpp.o -c /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/main.cpp
 
 CMakeFiles/Flashcards.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Flashcards.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/main.cpp > CMakeFiles/Flashcards.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/main.cpp > CMakeFiles/Flashcards.dir/main.cpp.i
 
 CMakeFiles/Flashcards.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Flashcards.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/main.cpp -o CMakeFiles/Flashcards.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/main.cpp -o CMakeFiles/Flashcards.dir/main.cpp.s
 
 CMakeFiles/Flashcards.dir/flashcards.cpp.o: CMakeFiles/Flashcards.dir/flags.make
 CMakeFiles/Flashcards.dir/flashcards.cpp.o: /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/flashcards.cpp
 CMakeFiles/Flashcards.dir/flashcards.cpp.o: CMakeFiles/Flashcards.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Flashcards.dir/flashcards.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Flashcards.dir/flashcards.cpp.o -MF CMakeFiles/Flashcards.dir/flashcards.cpp.o.d -o CMakeFiles/Flashcards.dir/flashcards.cpp.o -c /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/flashcards.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Flashcards.dir/flashcards.cpp.o -MF CMakeFiles/Flashcards.dir/flashcards.cpp.o.d -o CMakeFiles/Flashcards.dir/flashcards.cpp.o -c /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/flashcards.cpp
 
 CMakeFiles/Flashcards.dir/flashcards.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Flashcards.dir/flashcards.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/flashcards.cpp > CMakeFiles/Flashcards.dir/flashcards.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/flashcards.cpp > CMakeFiles/Flashcards.dir/flashcards.cpp.i
 
 CMakeFiles/Flashcards.dir/flashcards.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Flashcards.dir/flashcards.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/flashcards.cpp -o CMakeFiles/Flashcards.dir/flashcards.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/flashcards.cpp -o CMakeFiles/Flashcards.dir/flashcards.cpp.s
 
-CMakeFiles/Flashcards.dir/flashcard_details.cpp.o: CMakeFiles/Flashcards.dir/flags.make
-CMakeFiles/Flashcards.dir/flashcard_details.cpp.o: /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/flashcard_details.cpp
-CMakeFiles/Flashcards.dir/flashcard_details.cpp.o: CMakeFiles/Flashcards.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Flashcards.dir/flashcard_details.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Flashcards.dir/flashcard_details.cpp.o -MF CMakeFiles/Flashcards.dir/flashcard_details.cpp.o.d -o CMakeFiles/Flashcards.dir/flashcard_details.cpp.o -c /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/flashcard_details.cpp
+CMakeFiles/Flashcards.dir/Quiz_details.cpp.o: CMakeFiles/Flashcards.dir/flags.make
+CMakeFiles/Flashcards.dir/Quiz_details.cpp.o: /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/Quiz_details.cpp
+CMakeFiles/Flashcards.dir/Quiz_details.cpp.o: CMakeFiles/Flashcards.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Flashcards.dir/Quiz_details.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Flashcards.dir/Quiz_details.cpp.o -MF CMakeFiles/Flashcards.dir/Quiz_details.cpp.o.d -o CMakeFiles/Flashcards.dir/Quiz_details.cpp.o -c /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/Quiz_details.cpp
 
-CMakeFiles/Flashcards.dir/flashcard_details.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Flashcards.dir/flashcard_details.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/flashcard_details.cpp > CMakeFiles/Flashcards.dir/flashcard_details.cpp.i
+CMakeFiles/Flashcards.dir/Quiz_details.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Flashcards.dir/Quiz_details.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/Quiz_details.cpp > CMakeFiles/Flashcards.dir/Quiz_details.cpp.i
 
-CMakeFiles/Flashcards.dir/flashcard_details.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Flashcards.dir/flashcard_details.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/flashcard_details.cpp -o CMakeFiles/Flashcards.dir/flashcard_details.cpp.s
+CMakeFiles/Flashcards.dir/Quiz_details.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Flashcards.dir/Quiz_details.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/Quiz_details.cpp -o CMakeFiles/Flashcards.dir/Quiz_details.cpp.s
 
 CMakeFiles/Flashcards.dir/file_handling.cpp.o: CMakeFiles/Flashcards.dir/flags.make
 CMakeFiles/Flashcards.dir/file_handling.cpp.o: /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/file_handling.cpp
 CMakeFiles/Flashcards.dir/file_handling.cpp.o: CMakeFiles/Flashcards.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Flashcards.dir/file_handling.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Flashcards.dir/file_handling.cpp.o -MF CMakeFiles/Flashcards.dir/file_handling.cpp.o.d -o CMakeFiles/Flashcards.dir/file_handling.cpp.o -c /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/file_handling.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Flashcards.dir/file_handling.cpp.o -MF CMakeFiles/Flashcards.dir/file_handling.cpp.o.d -o CMakeFiles/Flashcards.dir/file_handling.cpp.o -c /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/file_handling.cpp
 
 CMakeFiles/Flashcards.dir/file_handling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Flashcards.dir/file_handling.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/file_handling.cpp > CMakeFiles/Flashcards.dir/file_handling.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/file_handling.cpp > CMakeFiles/Flashcards.dir/file_handling.cpp.i
 
 CMakeFiles/Flashcards.dir/file_handling.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Flashcards.dir/file_handling.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/file_handling.cpp -o CMakeFiles/Flashcards.dir/file_handling.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/file_handling.cpp -o CMakeFiles/Flashcards.dir/file_handling.cpp.s
+
+CMakeFiles/Flashcards.dir/Quiz.cpp.o: CMakeFiles/Flashcards.dir/flags.make
+CMakeFiles/Flashcards.dir/Quiz.cpp.o: /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/Quiz.cpp
+CMakeFiles/Flashcards.dir/Quiz.cpp.o: CMakeFiles/Flashcards.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Flashcards.dir/Quiz.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Flashcards.dir/Quiz.cpp.o -MF CMakeFiles/Flashcards.dir/Quiz.cpp.o.d -o CMakeFiles/Flashcards.dir/Quiz.cpp.o -c /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/Quiz.cpp
+
+CMakeFiles/Flashcards.dir/Quiz.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Flashcards.dir/Quiz.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/Quiz.cpp > CMakeFiles/Flashcards.dir/Quiz.cpp.i
+
+CMakeFiles/Flashcards.dir/Quiz.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Flashcards.dir/Quiz.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/Quiz.cpp -o CMakeFiles/Flashcards.dir/Quiz.cpp.s
+
+CMakeFiles/Flashcards.dir/uiSetup.cpp.o: CMakeFiles/Flashcards.dir/flags.make
+CMakeFiles/Flashcards.dir/uiSetup.cpp.o: /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/uiSetup.cpp
+CMakeFiles/Flashcards.dir/uiSetup.cpp.o: CMakeFiles/Flashcards.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Flashcards.dir/uiSetup.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Flashcards.dir/uiSetup.cpp.o -MF CMakeFiles/Flashcards.dir/uiSetup.cpp.o.d -o CMakeFiles/Flashcards.dir/uiSetup.cpp.o -c /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/uiSetup.cpp
+
+CMakeFiles/Flashcards.dir/uiSetup.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Flashcards.dir/uiSetup.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/uiSetup.cpp > CMakeFiles/Flashcards.dir/uiSetup.cpp.i
+
+CMakeFiles/Flashcards.dir/uiSetup.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Flashcards.dir/uiSetup.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/uiSetup.cpp -o CMakeFiles/Flashcards.dir/uiSetup.cpp.s
 
 # Object files for target Flashcards
 Flashcards_OBJECTS = \
 "CMakeFiles/Flashcards.dir/Flashcards_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/Flashcards.dir/main.cpp.o" \
 "CMakeFiles/Flashcards.dir/flashcards.cpp.o" \
-"CMakeFiles/Flashcards.dir/flashcard_details.cpp.o" \
-"CMakeFiles/Flashcards.dir/file_handling.cpp.o"
+"CMakeFiles/Flashcards.dir/Quiz_details.cpp.o" \
+"CMakeFiles/Flashcards.dir/file_handling.cpp.o" \
+"CMakeFiles/Flashcards.dir/Quiz.cpp.o" \
+"CMakeFiles/Flashcards.dir/uiSetup.cpp.o"
 
 # External object files for target Flashcards
 Flashcards_EXTERNAL_OBJECTS =
@@ -153,14 +183,16 @@ Flashcards_EXTERNAL_OBJECTS =
 Flashcards.app/Contents/MacOS/Flashcards: CMakeFiles/Flashcards.dir/Flashcards_autogen/mocs_compilation.cpp.o
 Flashcards.app/Contents/MacOS/Flashcards: CMakeFiles/Flashcards.dir/main.cpp.o
 Flashcards.app/Contents/MacOS/Flashcards: CMakeFiles/Flashcards.dir/flashcards.cpp.o
-Flashcards.app/Contents/MacOS/Flashcards: CMakeFiles/Flashcards.dir/flashcard_details.cpp.o
+Flashcards.app/Contents/MacOS/Flashcards: CMakeFiles/Flashcards.dir/Quiz_details.cpp.o
 Flashcards.app/Contents/MacOS/Flashcards: CMakeFiles/Flashcards.dir/file_handling.cpp.o
+Flashcards.app/Contents/MacOS/Flashcards: CMakeFiles/Flashcards.dir/Quiz.cpp.o
+Flashcards.app/Contents/MacOS/Flashcards: CMakeFiles/Flashcards.dir/uiSetup.cpp.o
 Flashcards.app/Contents/MacOS/Flashcards: CMakeFiles/Flashcards.dir/build.make
 Flashcards.app/Contents/MacOS/Flashcards: /Users/andreas/Qt/6.4.1/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
 Flashcards.app/Contents/MacOS/Flashcards: /Users/andreas/Qt/6.4.1/macos/lib/QtGui.framework/Versions/A/QtGui
 Flashcards.app/Contents/MacOS/Flashcards: /Users/andreas/Qt/6.4.1/macos/lib/QtCore.framework/Versions/A/QtCore
 Flashcards.app/Contents/MacOS/Flashcards: CMakeFiles/Flashcards.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Flashcards.app/Contents/MacOS/Flashcards"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Flashcards.app/Contents/MacOS/Flashcards"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Flashcards.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

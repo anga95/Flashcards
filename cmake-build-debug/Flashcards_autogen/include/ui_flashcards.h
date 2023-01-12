@@ -11,16 +11,17 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QComboBox>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
+#include <QtWidgets/QProgressBar>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QTabWidget>
 #include <QtWidgets/QTextBrowser>
-#include <QtWidgets/QTextEdit>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
@@ -42,11 +43,13 @@ public:
     QVBoxLayout *verticalLayout_2;
     QLabel *label_3;
     QTextBrowser *textBrowser;
+    QProgressBar *progressBar;
     QWidget *tab_2;
     QWidget *layoutWidget2;
     QVBoxLayout *add_question_widget;
+    QSpacerItem *verticalSpacer_3;
     QLabel *label;
-    QTextEdit *text_question;
+    QLineEdit *text_question;
     QSpacerItem *verticalSpacer;
     QLabel *label_2;
     QLineEdit *text_correct_answer;
@@ -56,6 +59,22 @@ public:
     QLineEdit *text_wrong_answer_2;
     QLineEdit *text_wrong_answer_3;
     QPushButton *save_button;
+    QWidget *tab_5;
+    QComboBox *comboBox;
+    QTextBrowser *delete_text_browser;
+    QWidget *verticalLayoutWidget;
+    QVBoxLayout *verticalLayout_3;
+    QLabel *delete_label_1;
+    QLabel *delete_label_2;
+    QLabel *delete_label_3;
+    QLabel *delete_label_4;
+    QWidget *verticalLayoutWidget_2;
+    QVBoxLayout *verticalLayout_4;
+    QLabel *label_4;
+    QLabel *label_5;
+    QLabel *label_6;
+    QLabel *label_7;
+    QPushButton *delete_button;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -63,7 +82,7 @@ public:
     {
         if (Flashcards->objectName().isEmpty())
             Flashcards->setObjectName("Flashcards");
-        Flashcards->resize(800, 600);
+        Flashcards->resize(898, 750);
         centralwidget = new QWidget(Flashcards);
         centralwidget->setObjectName("centralwidget");
         tabWidget = new QTabWidget(centralwidget);
@@ -73,12 +92,15 @@ public:
         tab->setObjectName("tab");
         layoutWidget = new QWidget(tab);
         layoutWidget->setObjectName("layoutWidget");
-        layoutWidget->setGeometry(QRect(60, 300, 361, 134));
+        layoutWidget->setGeometry(QRect(30, 280, 361, 161));
         verticalLayout = new QVBoxLayout(layoutWidget);
         verticalLayout->setObjectName("verticalLayout");
         verticalLayout->setContentsMargins(0, 0, 0, 0);
         answer_button_1 = new QPushButton(layoutWidget);
         answer_button_1->setObjectName("answer_button_1");
+        answer_button_1->setStyleSheet(QString::fromUtf8(""));
+        answer_button_1->setCheckable(false);
+        answer_button_1->setAutoRepeatInterval(121);
 
         verticalLayout->addWidget(answer_button_1);
 
@@ -113,21 +135,29 @@ public:
 
         verticalLayout_2->addWidget(textBrowser);
 
+        progressBar = new QProgressBar(tab);
+        progressBar->setObjectName("progressBar");
+        progressBar->setGeometry(QRect(70, 240, 118, 23));
+        progressBar->setValue(24);
         tabWidget->addTab(tab, QString());
         tab_2 = new QWidget();
         tab_2->setObjectName("tab_2");
         layoutWidget2 = new QWidget(tab_2);
         layoutWidget2->setObjectName("layoutWidget2");
-        layoutWidget2->setGeometry(QRect(90, 30, 361, 431));
+        layoutWidget2->setGeometry(QRect(90, 50, 358, 365));
         add_question_widget = new QVBoxLayout(layoutWidget2);
         add_question_widget->setObjectName("add_question_widget");
         add_question_widget->setContentsMargins(0, 0, 0, 0);
+        verticalSpacer_3 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
+
+        add_question_widget->addItem(verticalSpacer_3);
+
         label = new QLabel(layoutWidget2);
         label->setObjectName("label");
 
         add_question_widget->addWidget(label);
 
-        text_question = new QTextEdit(layoutWidget2);
+        text_question = new QLineEdit(layoutWidget2);
         text_question->setObjectName("text_question");
 
         add_question_widget->addWidget(text_question);
@@ -146,7 +176,7 @@ public:
 
         add_question_widget->addWidget(text_correct_answer);
 
-        verticalSpacer_2 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
+        verticalSpacer_2 = new QSpacerItem(356, 28, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         add_question_widget->addItem(verticalSpacer_2);
 
@@ -176,10 +206,74 @@ public:
         add_question_widget->addWidget(save_button);
 
         tabWidget->addTab(tab_2, QString());
+        tab_5 = new QWidget();
+        tab_5->setObjectName("tab_5");
+        comboBox = new QComboBox(tab_5);
+        comboBox->setObjectName("comboBox");
+        comboBox->setGeometry(QRect(20, 30, 451, 31));
+        delete_text_browser = new QTextBrowser(tab_5);
+        delete_text_browser->setObjectName("delete_text_browser");
+        delete_text_browser->setGeometry(QRect(70, 80, 256, 192));
+        verticalLayoutWidget = new QWidget(tab_5);
+        verticalLayoutWidget->setObjectName("verticalLayoutWidget");
+        verticalLayoutWidget->setGeometry(QRect(160, 280, 271, 151));
+        verticalLayout_3 = new QVBoxLayout(verticalLayoutWidget);
+        verticalLayout_3->setObjectName("verticalLayout_3");
+        verticalLayout_3->setContentsMargins(0, 0, 0, 0);
+        delete_label_1 = new QLabel(verticalLayoutWidget);
+        delete_label_1->setObjectName("delete_label_1");
+
+        verticalLayout_3->addWidget(delete_label_1);
+
+        delete_label_2 = new QLabel(verticalLayoutWidget);
+        delete_label_2->setObjectName("delete_label_2");
+
+        verticalLayout_3->addWidget(delete_label_2);
+
+        delete_label_3 = new QLabel(verticalLayoutWidget);
+        delete_label_3->setObjectName("delete_label_3");
+
+        verticalLayout_3->addWidget(delete_label_3);
+
+        delete_label_4 = new QLabel(verticalLayoutWidget);
+        delete_label_4->setObjectName("delete_label_4");
+
+        verticalLayout_3->addWidget(delete_label_4);
+
+        verticalLayoutWidget_2 = new QWidget(tab_5);
+        verticalLayoutWidget_2->setObjectName("verticalLayoutWidget_2");
+        verticalLayoutWidget_2->setGeometry(QRect(50, 280, 101, 151));
+        verticalLayout_4 = new QVBoxLayout(verticalLayoutWidget_2);
+        verticalLayout_4->setObjectName("verticalLayout_4");
+        verticalLayout_4->setContentsMargins(0, 0, 0, 0);
+        label_4 = new QLabel(verticalLayoutWidget_2);
+        label_4->setObjectName("label_4");
+
+        verticalLayout_4->addWidget(label_4);
+
+        label_5 = new QLabel(verticalLayoutWidget_2);
+        label_5->setObjectName("label_5");
+
+        verticalLayout_4->addWidget(label_5);
+
+        label_6 = new QLabel(verticalLayoutWidget_2);
+        label_6->setObjectName("label_6");
+
+        verticalLayout_4->addWidget(label_6);
+
+        label_7 = new QLabel(verticalLayoutWidget_2);
+        label_7->setObjectName("label_7");
+
+        verticalLayout_4->addWidget(label_7);
+
+        delete_button = new QPushButton(tab_5);
+        delete_button->setObjectName("delete_button");
+        delete_button->setGeometry(QRect(340, 160, 141, 41));
+        tabWidget->addTab(tab_5, QString());
         Flashcards->setCentralWidget(centralwidget);
         menubar = new QMenuBar(Flashcards);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 800, 37));
+        menubar->setGeometry(QRect(0, 0, 898, 24));
         Flashcards->setMenuBar(menubar);
         statusbar = new QStatusBar(Flashcards);
         statusbar->setObjectName("statusbar");
@@ -187,7 +281,7 @@ public:
 
         retranslateUi(Flashcards);
 
-        tabWidget->setCurrentIndex(0);
+        tabWidget->setCurrentIndex(2);
 
 
         QMetaObject::connectSlotsByName(Flashcards);
@@ -203,19 +297,21 @@ public:
         label_3->setText(QCoreApplication::translate("Flashcards", "Question", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(tab), QCoreApplication::translate("Flashcards", "Solve Quiz", nullptr));
         label->setText(QCoreApplication::translate("Flashcards", "Question", nullptr));
-        text_question->setHtml(QCoreApplication::translate("Flashcards", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"hr { height: 1px; border-width: 0; }\n"
-"li.unchecked::marker { content: \"\\2610\"; }\n"
-"li.checked::marker { content: \"\\2612\"; }\n"
-"</style></head><body style=\" font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>", nullptr));
         label_2->setText(QCoreApplication::translate("Flashcards", "Answer", nullptr));
         text_correct_answer->setText(QString());
         wrong_answers->setText(QCoreApplication::translate("Flashcards", "Wrong answers", nullptr));
         save_button->setText(QCoreApplication::translate("Flashcards", "save", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(tab_2), QCoreApplication::translate("Flashcards", "Add question", nullptr));
+        delete_label_1->setText(QCoreApplication::translate("Flashcards", "TextLabel", nullptr));
+        delete_label_2->setText(QCoreApplication::translate("Flashcards", "TextLabel", nullptr));
+        delete_label_3->setText(QCoreApplication::translate("Flashcards", "TextLabel", nullptr));
+        delete_label_4->setText(QCoreApplication::translate("Flashcards", "TextLabel", nullptr));
+        label_4->setText(QCoreApplication::translate("Flashcards", "Correct answer:", nullptr));
+        label_5->setText(QCoreApplication::translate("Flashcards", "wrong answer:", nullptr));
+        label_6->setText(QCoreApplication::translate("Flashcards", "wrong answer:", nullptr));
+        label_7->setText(QCoreApplication::translate("Flashcards", "wrong answer:", nullptr));
+        delete_button->setText(QCoreApplication::translate("Flashcards", "DELETE", nullptr));
+        tabWidget->setTabText(tabWidget->indexOf(tab_5), QCoreApplication::translate("Flashcards", "Delete Question", nullptr));
     } // retranslateUi
 
 };
