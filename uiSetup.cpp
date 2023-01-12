@@ -54,6 +54,7 @@ void delete_card_from_quiz(Ui::Flashcards *ui, Quiz &quiz, int index) {
     quiz.delete_card(index);
     set_progress_bar(ui, quiz);
     save_quiz_to_file(quiz);
+    display_new_question(ui, quiz);
 }
 void fill_delete_list(Ui::Flashcards *ui, Quiz &quiz) {
     for (int i = 0; i < quiz.get_size(); ++i) {
