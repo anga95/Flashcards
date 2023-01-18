@@ -37,12 +37,12 @@ void Quiz::increase_question_index() {
     question_index++;
 }
 
-const Quiz_card Quiz::get_specific_card(int i) const{
+Quiz_card Quiz::get_specific_card(int i) const{
     return questions[i];
 }
 
-void Quiz::delete_card(int i) {
-    questions.erase(questions.begin() + i);
+void Quiz::delete_card(int index) {
+    questions.erase(questions.begin() + index);
 }
 
 

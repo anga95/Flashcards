@@ -5,8 +5,8 @@
 #include <QMessageBox>
 #include "file_handling.h"
 
-void parse_file(QVector<Quiz_card> &questions){
-    QFile file(FILE_PATH);
+void parse_file(QVector<Quiz_card> &questions, QString input_file){
+    QFile file(input_file);
     file.open(QIODevice::ReadOnly);
     QTextStream in(&file);
     if (in.atEnd()){

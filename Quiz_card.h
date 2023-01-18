@@ -17,10 +17,10 @@ public:
     explicit Quiz_card(QVector<QString> inputs);
     Quiz_card() = default;
 
-    const QString &get_wrong_answer(int index) const;
-    const QVector<QString> &get_all_wrong_answers() const;
-    const QString &get_question() const;
-    const QString &get_correct_answer() const;
+    [[nodiscard]] const QString &get_wrong_answer(int index) const;
+    [[nodiscard]] const QVector<QString> &get_all_wrong_answers() const;
+    [[nodiscard]] const QString &get_question() const;
+    [[nodiscard]] const QString &get_correct_answer() const;
 
     void set_question(const QString &newQuestion);
     void set_correct_answer(const QString &newCorrect_answer);

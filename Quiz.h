@@ -15,17 +15,17 @@ private:
 public:
     void reset_question_index();
     void increase_question_index();
-    int get_question_index() const;
+    [[nodiscard]] int get_question_index() const;
 
     void insert_card(Quiz_card &card);
     explicit Quiz();
     bool empty();
-    const int get_size() const;
+    [[nodiscard]] const int get_size() const;
 
     Quiz_card get_current_card();
-    const Quiz_card get_specific_card(int i) const;
+    [[nodiscard]] Quiz_card get_specific_card(int i) const;
 
-    void delete_card(int i);
+    void delete_card(int index);
 };
 
     //const QVector<Quiz_card> &getQuestions() const;
