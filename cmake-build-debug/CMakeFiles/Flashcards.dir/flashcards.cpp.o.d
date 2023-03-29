@@ -556,8 +556,6 @@ CMakeFiles/Flashcards.dir/flashcards.cpp.o: \
   /Users/andreas/Qt/6.4.1/macos/lib/QtCore.framework/Headers/qtimer.h \
   /Users/andreas/Qt/6.4.1/macos/lib/QtCore.framework/Headers/qbasictimer.h \
   /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/flashcards.h \
-  /Users/andreas/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers/qpushbutton.h \
-  /Users/andreas/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
   /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/Quiz.h \
   /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/cmake-build-debug/Flashcards_autogen/include/./ui_flashcards.h \
   /Users/andreas/Qt/6.4.1/macos/lib/QtCore.framework/Headers/QVariant \
@@ -604,6 +602,8 @@ CMakeFiles/Flashcards.dir/flashcards.cpp.o: \
   /Users/andreas/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers/QProgressBar \
   /Users/andreas/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers/qprogressbar.h \
   /Users/andreas/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers/QPushButton \
+  /Users/andreas/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers/qpushbutton.h \
+  /Users/andreas/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
   /Users/andreas/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers/QSpacerItem \
   /Users/andreas/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers/qlayoutitem.h \
   /Users/andreas/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers/QStatusBar \
@@ -618,7 +618,6 @@ CMakeFiles/Flashcards.dir/flashcards.cpp.o: \
   /Users/andreas/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers/qlayout.h \
   /Users/andreas/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers/qgridlayout.h \
   /Users/andreas/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers/QWidget \
-  /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/file_handling.h \
   /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/uiSetup.h \
   /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/cmake-build-debug/Flashcards_autogen/include/ui_flashcards.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iostream \

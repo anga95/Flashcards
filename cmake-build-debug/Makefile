@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = "/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
+RM = "/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashc
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -97,37 +97,37 @@ list_install_components/fast: list_install_components
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -P cmake_install.cmake
+	"/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/CLion.app/Contents/bin/cmake/mac/bin/cmake" -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -P cmake_install.cmake
+	"/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/CLion.app/Contents/bin/cmake/mac/bin/cmake" -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # The main all target
@@ -235,29 +235,29 @@ Quiz.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flashcards.dir/build.make CMakeFiles/Flashcards.dir/Quiz.cpp.s
 .PHONY : Quiz.cpp.s
 
-Quiz_details.o: Quiz_details.cpp.o
-.PHONY : Quiz_details.o
+Quiz_card.o: Quiz_card.cpp.o
+.PHONY : Quiz_card.o
 
 # target to build an object file
-Quiz_details.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flashcards.dir/build.make CMakeFiles/Flashcards.dir/Quiz_details.cpp.o
-.PHONY : Quiz_details.cpp.o
+Quiz_card.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flashcards.dir/build.make CMakeFiles/Flashcards.dir/Quiz_card.cpp.o
+.PHONY : Quiz_card.cpp.o
 
-Quiz_details.i: Quiz_details.cpp.i
-.PHONY : Quiz_details.i
+Quiz_card.i: Quiz_card.cpp.i
+.PHONY : Quiz_card.i
 
 # target to preprocess a source file
-Quiz_details.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flashcards.dir/build.make CMakeFiles/Flashcards.dir/Quiz_details.cpp.i
-.PHONY : Quiz_details.cpp.i
+Quiz_card.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flashcards.dir/build.make CMakeFiles/Flashcards.dir/Quiz_card.cpp.i
+.PHONY : Quiz_card.cpp.i
 
-Quiz_details.s: Quiz_details.cpp.s
-.PHONY : Quiz_details.s
+Quiz_card.s: Quiz_card.cpp.s
+.PHONY : Quiz_card.s
 
 # target to generate assembly for a file
-Quiz_details.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flashcards.dir/build.make CMakeFiles/Flashcards.dir/Quiz_details.cpp.s
-.PHONY : Quiz_details.cpp.s
+Quiz_card.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flashcards.dir/build.make CMakeFiles/Flashcards.dir/Quiz_card.cpp.s
+.PHONY : Quiz_card.cpp.s
 
 file_handling.o: file_handling.cpp.o
 .PHONY : file_handling.o
@@ -375,9 +375,9 @@ help:
 	@echo "... Quiz.o"
 	@echo "... Quiz.i"
 	@echo "... Quiz.s"
-	@echo "... Quiz_details.o"
-	@echo "... Quiz_details.i"
-	@echo "... Quiz_details.s"
+	@echo "... Quiz_card.o"
+	@echo "... Quiz_card.i"
+	@echo "... Quiz_card.s"
 	@echo "... file_handling.o"
 	@echo "... file_handling.i"
 	@echo "... file_handling.s"

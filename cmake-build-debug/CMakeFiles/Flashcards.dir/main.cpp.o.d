@@ -494,8 +494,6 @@ CMakeFiles/Flashcards.dir/main.cpp.o: \
   /Users/andreas/Qt/6.4.1/macos/lib/QtGui.framework/Headers/qcursor.h \
   /Users/andreas/Qt/6.4.1/macos/lib/QtGui.framework/Headers/qbitmap.h \
   /Users/andreas/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
-  /Users/andreas/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers/qpushbutton.h \
-  /Users/andreas/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
   /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/Quiz.h \
   /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/Quiz_card.h \
   /Users/andreas/Qt/6.4.1/macos/lib/QtCore.framework/Headers/QList \

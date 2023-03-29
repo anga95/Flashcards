@@ -35,17 +35,14 @@ public:
     QWidget *tab;
     QWidget *layoutWidget;
     QVBoxLayout *verticalLayout;
+    QTextBrowser *textBrowser;
+    QProgressBar *progressBar;
     QPushButton *answer_button_1;
     QPushButton *answer_button_2;
     QPushButton *answer_button_3;
     QPushButton *answer_button_4;
-    QWidget *layoutWidget1;
-    QVBoxLayout *verticalLayout_2;
-    QLabel *label_3;
-    QTextBrowser *textBrowser;
-    QProgressBar *progressBar;
     QWidget *tab_2;
-    QWidget *layoutWidget2;
+    QWidget *layoutWidget1;
     QVBoxLayout *add_question_widget;
     QSpacerItem *verticalSpacer_3;
     QLabel *label;
@@ -92,10 +89,21 @@ public:
         tab->setObjectName("tab");
         layoutWidget = new QWidget(tab);
         layoutWidget->setObjectName("layoutWidget");
-        layoutWidget->setGeometry(QRect(30, 280, 361, 161));
+        layoutWidget->setGeometry(QRect(30, 70, 461, 351));
         verticalLayout = new QVBoxLayout(layoutWidget);
         verticalLayout->setObjectName("verticalLayout");
         verticalLayout->setContentsMargins(0, 0, 0, 0);
+        textBrowser = new QTextBrowser(layoutWidget);
+        textBrowser->setObjectName("textBrowser");
+
+        verticalLayout->addWidget(textBrowser);
+
+        progressBar = new QProgressBar(layoutWidget);
+        progressBar->setObjectName("progressBar");
+        progressBar->setValue(24);
+
+        verticalLayout->addWidget(progressBar);
+
         answer_button_1 = new QPushButton(layoutWidget);
         answer_button_1->setObjectName("answer_button_1");
         answer_button_1->setStyleSheet(QString::fromUtf8(""));
@@ -119,45 +127,25 @@ public:
 
         verticalLayout->addWidget(answer_button_4);
 
-        layoutWidget1 = new QWidget(tab);
-        layoutWidget1->setObjectName("layoutWidget1");
-        layoutWidget1->setGeometry(QRect(60, 10, 258, 218));
-        verticalLayout_2 = new QVBoxLayout(layoutWidget1);
-        verticalLayout_2->setObjectName("verticalLayout_2");
-        verticalLayout_2->setContentsMargins(0, 0, 0, 0);
-        label_3 = new QLabel(layoutWidget1);
-        label_3->setObjectName("label_3");
-
-        verticalLayout_2->addWidget(label_3);
-
-        textBrowser = new QTextBrowser(layoutWidget1);
-        textBrowser->setObjectName("textBrowser");
-
-        verticalLayout_2->addWidget(textBrowser);
-
-        progressBar = new QProgressBar(tab);
-        progressBar->setObjectName("progressBar");
-        progressBar->setGeometry(QRect(70, 240, 118, 23));
-        progressBar->setValue(24);
         tabWidget->addTab(tab, QString());
         tab_2 = new QWidget();
         tab_2->setObjectName("tab_2");
-        layoutWidget2 = new QWidget(tab_2);
-        layoutWidget2->setObjectName("layoutWidget2");
-        layoutWidget2->setGeometry(QRect(90, 50, 358, 365));
-        add_question_widget = new QVBoxLayout(layoutWidget2);
+        layoutWidget1 = new QWidget(tab_2);
+        layoutWidget1->setObjectName("layoutWidget1");
+        layoutWidget1->setGeometry(QRect(40, 60, 451, 365));
+        add_question_widget = new QVBoxLayout(layoutWidget1);
         add_question_widget->setObjectName("add_question_widget");
         add_question_widget->setContentsMargins(0, 0, 0, 0);
         verticalSpacer_3 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         add_question_widget->addItem(verticalSpacer_3);
 
-        label = new QLabel(layoutWidget2);
+        label = new QLabel(layoutWidget1);
         label->setObjectName("label");
 
         add_question_widget->addWidget(label);
 
-        text_question = new QLineEdit(layoutWidget2);
+        text_question = new QLineEdit(layoutWidget1);
         text_question->setObjectName("text_question");
 
         add_question_widget->addWidget(text_question);
@@ -166,12 +154,12 @@ public:
 
         add_question_widget->addItem(verticalSpacer);
 
-        label_2 = new QLabel(layoutWidget2);
+        label_2 = new QLabel(layoutWidget1);
         label_2->setObjectName("label_2");
 
         add_question_widget->addWidget(label_2);
 
-        text_correct_answer = new QLineEdit(layoutWidget2);
+        text_correct_answer = new QLineEdit(layoutWidget1);
         text_correct_answer->setObjectName("text_correct_answer");
 
         add_question_widget->addWidget(text_correct_answer);
@@ -180,27 +168,27 @@ public:
 
         add_question_widget->addItem(verticalSpacer_2);
 
-        wrong_answers = new QLabel(layoutWidget2);
+        wrong_answers = new QLabel(layoutWidget1);
         wrong_answers->setObjectName("wrong_answers");
 
         add_question_widget->addWidget(wrong_answers);
 
-        text_wrong_answer_1 = new QLineEdit(layoutWidget2);
+        text_wrong_answer_1 = new QLineEdit(layoutWidget1);
         text_wrong_answer_1->setObjectName("text_wrong_answer_1");
 
         add_question_widget->addWidget(text_wrong_answer_1);
 
-        text_wrong_answer_2 = new QLineEdit(layoutWidget2);
+        text_wrong_answer_2 = new QLineEdit(layoutWidget1);
         text_wrong_answer_2->setObjectName("text_wrong_answer_2");
 
         add_question_widget->addWidget(text_wrong_answer_2);
 
-        text_wrong_answer_3 = new QLineEdit(layoutWidget2);
+        text_wrong_answer_3 = new QLineEdit(layoutWidget1);
         text_wrong_answer_3->setObjectName("text_wrong_answer_3");
 
         add_question_widget->addWidget(text_wrong_answer_3);
 
-        save_button = new QPushButton(layoutWidget2);
+        save_button = new QPushButton(layoutWidget1);
         save_button->setObjectName("save_button");
 
         add_question_widget->addWidget(save_button);
@@ -216,7 +204,7 @@ public:
         delete_text_browser->setGeometry(QRect(70, 80, 256, 192));
         verticalLayoutWidget = new QWidget(tab_5);
         verticalLayoutWidget->setObjectName("verticalLayoutWidget");
-        verticalLayoutWidget->setGeometry(QRect(160, 280, 271, 151));
+        verticalLayoutWidget->setGeometry(QRect(160, 280, 351, 151));
         verticalLayout_3 = new QVBoxLayout(verticalLayoutWidget);
         verticalLayout_3->setObjectName("verticalLayout_3");
         verticalLayout_3->setContentsMargins(0, 0, 0, 0);
@@ -273,7 +261,7 @@ public:
         Flashcards->setCentralWidget(centralwidget);
         menubar = new QMenuBar(Flashcards);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 898, 24));
+        menubar->setGeometry(QRect(0, 0, 898, 37));
         Flashcards->setMenuBar(menubar);
         statusbar = new QStatusBar(Flashcards);
         statusbar->setObjectName("statusbar");
@@ -294,7 +282,6 @@ public:
         answer_button_2->setText(QCoreApplication::translate("Flashcards", "Answer", nullptr));
         answer_button_3->setText(QCoreApplication::translate("Flashcards", "Answer", nullptr));
         answer_button_4->setText(QCoreApplication::translate("Flashcards", "Answer", nullptr));
-        label_3->setText(QCoreApplication::translate("Flashcards", "Question", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(tab), QCoreApplication::translate("Flashcards", "Solve Quiz", nullptr));
         label->setText(QCoreApplication::translate("Flashcards", "Question", nullptr));
         label_2->setText(QCoreApplication::translate("Flashcards", "Answer", nullptr));

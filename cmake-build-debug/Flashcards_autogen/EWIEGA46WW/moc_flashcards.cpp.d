@@ -198,9 +198,7 @@
   /Users/andreas/Qt/6.4.1/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
   /Users/andreas/Qt/6.4.1/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
   /Users/andreas/Qt/6.4.1/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
-  /Users/andreas/Qt/6.4.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h \
   /Users/andreas/Qt/6.4.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
-  /Users/andreas/Qt/6.4.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h \
   /Users/andreas/Qt/6.4.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
   /Users/andreas/Qt/6.4.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
   /Users/andreas/Qt/6.4.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \

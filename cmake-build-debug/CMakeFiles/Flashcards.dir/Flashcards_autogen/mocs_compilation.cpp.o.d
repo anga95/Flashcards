@@ -495,8 +495,6 @@ CMakeFiles/Flashcards.dir/Flashcards_autogen/mocs_compilation.cpp.o: \
   /Users/andreas/Qt/6.4.1/macos/lib/QtGui.framework/Headers/qcursor.h \
   /Users/andreas/Qt/6.4.1/macos/lib/QtGui.framework/Headers/qbitmap.h \
   /Users/andreas/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
-  /Users/andreas/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers/qpushbutton.h \
-  /Users/andreas/Qt/6.4.1/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
   /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/cmake-build-debug/Flashcards_autogen/EWIEGA46WW/../../../Quiz.h \
   /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/cmake-build-debug/Flashcards_autogen/EWIEGA46WW/../../../Quiz_card.h \
   /Users/andreas/Qt/6.4.1/macos/lib/QtCore.framework/Headers/QList \

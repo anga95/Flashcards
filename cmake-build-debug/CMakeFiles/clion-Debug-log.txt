@@ -1,4 +1,4 @@
-"/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -S /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards -B /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/cmake-build-debug
+"/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -S /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards -B /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/cmake-build-debug
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/cmake-build-debug

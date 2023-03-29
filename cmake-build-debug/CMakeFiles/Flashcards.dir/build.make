@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = "/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
+RM = "/Users/andreas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -111,19 +111,19 @@ CMakeFiles/Flashcards.dir/flashcards.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Flashcards.dir/flashcards.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/flashcards.cpp -o CMakeFiles/Flashcards.dir/flashcards.cpp.s
 
-CMakeFiles/Flashcards.dir/Quiz_details.cpp.o: CMakeFiles/Flashcards.dir/flags.make
-CMakeFiles/Flashcards.dir/Quiz_details.cpp.o: /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/Quiz_details.cpp
-CMakeFiles/Flashcards.dir/Quiz_details.cpp.o: CMakeFiles/Flashcards.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Flashcards.dir/Quiz_details.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Flashcards.dir/Quiz_details.cpp.o -MF CMakeFiles/Flashcards.dir/Quiz_details.cpp.o.d -o CMakeFiles/Flashcards.dir/Quiz_details.cpp.o -c /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/Quiz_details.cpp
+CMakeFiles/Flashcards.dir/Quiz_card.cpp.o: CMakeFiles/Flashcards.dir/flags.make
+CMakeFiles/Flashcards.dir/Quiz_card.cpp.o: /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/Quiz_card.cpp
+CMakeFiles/Flashcards.dir/Quiz_card.cpp.o: CMakeFiles/Flashcards.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Flashcards.dir/Quiz_card.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Flashcards.dir/Quiz_card.cpp.o -MF CMakeFiles/Flashcards.dir/Quiz_card.cpp.o.d -o CMakeFiles/Flashcards.dir/Quiz_card.cpp.o -c /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/Quiz_card.cpp
 
-CMakeFiles/Flashcards.dir/Quiz_details.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Flashcards.dir/Quiz_details.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/Quiz_details.cpp > CMakeFiles/Flashcards.dir/Quiz_details.cpp.i
+CMakeFiles/Flashcards.dir/Quiz_card.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Flashcards.dir/Quiz_card.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/Quiz_card.cpp > CMakeFiles/Flashcards.dir/Quiz_card.cpp.i
 
-CMakeFiles/Flashcards.dir/Quiz_details.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Flashcards.dir/Quiz_details.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/Quiz_details.cpp -o CMakeFiles/Flashcards.dir/Quiz_details.cpp.s
+CMakeFiles/Flashcards.dir/Quiz_card.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Flashcards.dir/Quiz_card.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/Quiz_card.cpp -o CMakeFiles/Flashcards.dir/Quiz_card.cpp.s
 
 CMakeFiles/Flashcards.dir/file_handling.cpp.o: CMakeFiles/Flashcards.dir/flags.make
 CMakeFiles/Flashcards.dir/file_handling.cpp.o: /Users/andreas/Documents/MIUN/programmeringsmetodik/qt/flashcards/file_handling.cpp
@@ -172,7 +172,7 @@ Flashcards_OBJECTS = \
 "CMakeFiles/Flashcards.dir/Flashcards_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/Flashcards.dir/main.cpp.o" \
 "CMakeFiles/Flashcards.dir/flashcards.cpp.o" \
-"CMakeFiles/Flashcards.dir/Quiz_details.cpp.o" \
+"CMakeFiles/Flashcards.dir/Quiz_card.cpp.o" \
 "CMakeFiles/Flashcards.dir/file_handling.cpp.o" \
 "CMakeFiles/Flashcards.dir/Quiz.cpp.o" \
 "CMakeFiles/Flashcards.dir/uiSetup.cpp.o"
@@ -183,7 +183,7 @@ Flashcards_EXTERNAL_OBJECTS =
 Flashcards.app/Contents/MacOS/Flashcards: CMakeFiles/Flashcards.dir/Flashcards_autogen/mocs_compilation.cpp.o
 Flashcards.app/Contents/MacOS/Flashcards: CMakeFiles/Flashcards.dir/main.cpp.o
 Flashcards.app/Contents/MacOS/Flashcards: CMakeFiles/Flashcards.dir/flashcards.cpp.o
-Flashcards.app/Contents/MacOS/Flashcards: CMakeFiles/Flashcards.dir/Quiz_details.cpp.o
+Flashcards.app/Contents/MacOS/Flashcards: CMakeFiles/Flashcards.dir/Quiz_card.cpp.o
 Flashcards.app/Contents/MacOS/Flashcards: CMakeFiles/Flashcards.dir/file_handling.cpp.o
 Flashcards.app/Contents/MacOS/Flashcards: CMakeFiles/Flashcards.dir/Quiz.cpp.o
 Flashcards.app/Contents/MacOS/Flashcards: CMakeFiles/Flashcards.dir/uiSetup.cpp.o

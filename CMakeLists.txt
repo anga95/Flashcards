@@ -17,8 +17,8 @@ set(PROJECT_SOURCES
         flashcards.cpp
         flashcards.h
         flashcards.ui
-        Quiz_details.cpp
         Quiz_card.h
+        Quiz_card.cpp
         file_handling.cpp
         file_handling.h
         Quiz.cpp
